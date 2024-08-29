@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .translate-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 600px;
+    color: #333;
+  }
+  
+  .title {
+    text-align: center;
+    color: #0072ff;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .translate-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #0072ff;
+    margin-bottom: 25px;
+    background-color: #f1f3f4;
+    color: #333;
+  }
+  
+  .lang-selection {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  
+  .lang-input {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  
+  .lang-input label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0072ff;
+  }
+  
+  .lang-input input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #0072ff;
+    background-color: #f1f3f4;
+    color: #333;
+  }
+  
+  .translate-button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #00c6ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .translate-button:hover {
+    background-color: #0072ff;
+    transform: translateY(-2px);
+  }
+  
+  .translate-button:disabled {
+    background-color: #c6dafc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 15px;
+  }
+  
+  .translated-text-container {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .translated-text {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 8px;
+    border: 2px solid #0072ff;
+    font-size: 18px;
+    color: #0072ff;
+  }
+  
